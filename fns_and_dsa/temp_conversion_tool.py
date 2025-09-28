@@ -20,4 +20,4 @@ if measure == "F":
 elif measure == "C":
     print(f"{temperature}°C is {convert_to_fahrenheit(temperature):.2f}°F")
 else:
-    print("Invalid input. Please enter C or F.")
+    print("Invalid temperature. Please enter a numeric value.")
