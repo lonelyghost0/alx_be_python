@@ -11,8 +11,3 @@ def calculate_future_date (current_date):
     formatted_future_date = future_date.strftime("%Y-%m-%d")
     return formatted_future_date
 
-
-now = display_current_datetime()
-future = calculate_future_date(now)
-
-print (future)
