@@ -13,5 +13,10 @@ def calculate_future_date (current_date):
 
 
 now = display_current_datetime()
+<<<<<<< HEAD
 calculate_future_date(now)
+=======
+future = calculate_future_date(now)
+>>>>>>> b045fcaf7ecd0d5e68d09b253f4d2ffe15d4ceb8
 
+print (future)
